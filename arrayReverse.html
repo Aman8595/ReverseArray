@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // REVERSE THE ARRAY
+        
+//Method-1:-
+
+        let array=[1,2,3,4,5];
+        let reversedArray = [];
+        for(let i=0;i<array.length;i++){
+            reversedArray.unshift(array[i]) //add elements at starting 
+        }
+             
+        console.log(reversedArray)
+
+//Method-2:-
+let array1 = [1, 2, 3, 4, 5];
+let reversedArray1 = [];
+for (let i = array.length - 1; i >= 0; i--) {
+    reversedArray1.push(array[i]);  // add elements to the last eslie last index ko phle insert kraya hai
+}
+console.log(reversedArray1); // Outputs: [5, 4, 3, 2, 1]
+  
+  </script>
+</body>
+</html>
